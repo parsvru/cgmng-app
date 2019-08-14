@@ -74,6 +74,7 @@ export class HomeComponent implements OnInit {
       if(!ele.selected || ele.selected == false) {
         newdataselectdf.push(ele);
       } else  {
+        ele.selected = false;
         this.recordsf.push(ele);
       }
    });                             
@@ -88,7 +89,6 @@ export class HomeComponent implements OnInit {
 
   remove() {
     let newdataselectd = [];
-
     this.recordsf.forEach((ele) => {
       if(!ele.selected || ele.selected == false) {
         newdataselectd.push(ele);
@@ -96,7 +96,6 @@ export class HomeComponent implements OnInit {
         this.records.push(ele);
       }
    });                             
-    
    this.recordsf = newdataselectd;
     this.checkboxesO.forEach((element) => {
       element.nativeElement.checked = false;

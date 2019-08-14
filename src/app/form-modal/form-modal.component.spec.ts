@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { FormModalComponent } from './form-modal.component';
+import {FormGroup } from '@angular/forms'
+
 
 describe('FormModalComponent', () => {
   let component: FormModalComponent;
@@ -22,4 +23,5 @@ describe('FormModalComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });
