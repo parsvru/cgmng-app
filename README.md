@@ -14,7 +14,7 @@ A simple AngularJS and Angular one page application, that has two tables with th
 
 - npm install
 
-- npm start start
+- npm run start
 
 - it would run on http://localhost:4200/
 
