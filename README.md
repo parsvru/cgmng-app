@@ -10,7 +10,7 @@ A simple AngularJS and Angular one page application, that has two tables with th
 
 ## Starting the project
 
-- git clone 
+- git clone https://github.com/parsvru/cgmng-app.git
 
 - npm install
 
